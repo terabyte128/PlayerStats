@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="PlayerStats:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/PlayerStats_jar</output-path>
+    <root id="archive" name="PlayerStats.jar">
+      <element id="module-output" name="PlayerStats" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/spigot-api-1.15.2-R0.1-20200422.020115-90.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

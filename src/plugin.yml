@@ -1,0 +1,14 @@
+name: PlayerStats
+version: 0.0.1
+author: Sam Wolfson
+main: com.samwolfson.playerstats.PlayerStats
+api-version: 1.15
+commands:
+  stats:
+    description: Get your play time statistics.
+    usage: /stats
+    permission: playerstats.stats
+  rank:
+    description: Get your play time rank among all the players.
+    usage: /rank
+    permission: playerstats.rank
