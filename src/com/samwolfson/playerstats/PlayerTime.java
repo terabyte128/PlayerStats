@@ -3,6 +3,9 @@ package com.samwolfson.playerstats;
 import org.bukkit.OfflinePlayer;
 import org.bukkit.Statistic;
 
+/**
+ * Class to keep track of players and their play time (and compare them with others).
+ */
 public class PlayerTime implements Comparable<PlayerTime> {
     OfflinePlayer player;
     int hours;

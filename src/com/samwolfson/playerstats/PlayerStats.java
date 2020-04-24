@@ -14,6 +14,7 @@ public class PlayerStats extends JavaPlugin {
 
     @Override
     public void onEnable() {
+        // delegate commands to executors
         this.getCommand("stats").setExecutor(new StatsCommand());
         this.getCommand("rank").setExecutor(new RankCommand());
     }
